@@ -1,0 +1,11 @@
+.menu {
+    display:flex;
+    justify-content: space-around;
+    background-color: #7bc6c7;
+    gap: 0;
+}
+
+.item {
+    padding: 10px;
+    font-family: sans-serif;
+}
