@@ -1,0 +1,14 @@
+.menu {
+    display:inline-flex;
+    flex-direction: column;
+    background-color: #7bc6c7;
+}
+
+.item {
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.contido {
+    font-family: sans-serif;
+}
