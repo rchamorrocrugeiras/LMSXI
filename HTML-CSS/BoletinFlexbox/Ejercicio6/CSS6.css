@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar {
+    color: white;
+    background-color: #2E3A50;
+    flex: 1;
+    padding: 10px;
+}
+
+.sidebar li {
+    text-align: left;
+
+.contido {
+    flex: 8;
+    padding: 10px;
+    margin: 10px;
+}
