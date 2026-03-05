@@ -31,14 +31,20 @@ header {
     padding: 15px 25px;
     color: black;
     text-decoration: none;
+    border-radius: 4px;
 }
 
 .menu a:hover {
     background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(0.9);
+    font-size: 18px;
 }
 
-.grid-1 a:hover {
-    background-color: #1401DC;
+.card:hover {
+    background-color: #F2E1DE;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.02);
 }
 
 .hero {
