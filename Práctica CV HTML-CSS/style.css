@@ -50,12 +50,18 @@ header {
 .hero {
     display: flex;
     align-items: center;
+    text-align: center;
     gap: 40px;
 }
 
 .hero img {
     width: 180px;
     border-radius: 50%;
+}
+
+.bonito {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
 }
 
 .grid {
