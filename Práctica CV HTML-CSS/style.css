@@ -58,7 +58,7 @@ header {
     border-radius: 50%;
 }
 
-.grid-1 {
+.grid {
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 20px;
@@ -75,15 +75,34 @@ header {
     color: inherit;
 }
 
+.card-f {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.card-f a {
+    text-decoration: none;
+    color: inherit;
+}
+
 section {
     display: flexbox;
     flex-direction: column;
 }
 
 footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
     text-align: center;
     padding: 20px;
     background-color: #1e3a8a;
     color: white;
     margin-top: 5%;
+}
+
+.github {
+    text-align: right;
+    align-items: center;
 }
