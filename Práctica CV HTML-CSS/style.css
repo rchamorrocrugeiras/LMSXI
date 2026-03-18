@@ -1,3 +1,9 @@
+/* 
+Cor principal --> #f1f5f9
+Cor secundaria --> rgba(123,198,199,0.8)
+Outras cores utilizadas --> #1e3a8a, rgba(255, 255, 255, 0.2), #10b981, black, white
+*/
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f1f5f9;
