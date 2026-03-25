@@ -4,25 +4,25 @@ Cor secundaria --> rgba(123,198,199,0.8)
 Outras cores utilizadas --> #1e3a8a, rgba(255, 255, 255, 0.2), #10b981, black, white
 */
 
-body {
+body {      /* Establezco formato al cuerpo de toda la página, para que todo tenga la misma letra y color */
     font-family: Arial, sans-serif;
     background-color: #f1f5f9;
     color: #333;
     line-height: 200%;
 }
 
-.body {
+.body {     /* Establezco un margen en toda la página para que sea mejor visualmente */
     padding: 2%;
 }
 
-header {
+header {        /* Establezco formato para el cabecero que contenía mi información */
     background-color: #1e3a8a;
     color: white;
     padding: 0%;
     text-align: center;
 }
 
-.menu {
+.menu {     /* Establezco formato para el menú que va a aparecer en todas las páginas, establezco su tamaño, color y su margen */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -32,7 +32,7 @@ header {
     padding: 0;
 }
 
-.menu a {
+.menu a {       /* Establezco formato para los links del menú */
     display: block;
     padding: 15px 25px;
     color: black;
@@ -40,95 +40,95 @@ header {
     border-radius: 4px;
 }
 
-.menu a:hover {
+.menu a:hover {     /* Establezco formato para que cuando pongas el cursor por encima de cada link en el menú cambie el formato que tiene */
     background-color: rgba(255, 255, 255, 0.2);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     transform: scale(0.9);
     font-size: 18px;
 }
 
-.card:hover {
+.card:hover {       /* Establezco formato para que cuando pongas el cursor por encima de cada tarjeta en la página cambie el formato que tiene */
     background-color: #F2E1DE;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     transform: scale(1.02);
 }
 
-.hero {
+.hero {     /* Establezco formato para la sección en la que sale mi foto e información sobre mi */
     display: flex;
     align-items: center;
     text-align: center;
     gap: 40px;
 }
 
-.hero img {
+.hero img {     /* Establezco formato para la imágen de la sección del índex */
     width: 180px;
     border-radius: 50%;
 }
 
-.bonito {
+.bonito {       /* Establezco formato en el texto de información sobre mi del index para colocarlo donde yo quiera con un grid */
     display: grid;
     grid-template-columns: 15% 70% 15%;
 }
 
-.grid {
+.grid {     /* Establezco formato para todos los grids de la página en los que hay dos columnas */
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
 
-.card {
+.card {     /* Establezco formato para todas las tarjetas del index */
     background: white;
     padding: 20px;
     border-radius: 8px;
 }
 
-.card a {
+.card a {       /* Establezco formato para los links de las tarjetas del index */
     text-decoration: none;
     color: inherit;
 }
 
-.card-f {
+.card-f {       /* Establezco formato para el resto de tarjetas de la página */
     background: white;
     padding: 20px;
     border-radius: 8px;
 }
 
-.card-f a {
+.card-f a {     /* Establezco formato para los links del resto de tarjetas de la página */
     text-decoration: none;
     color: inherit;
 }
 
-.grid-3 {
+.grid-3 {       /* Establezco formato para el grid de competencias para poder poner las tarjetas en el lugar que yo quiera */
 display:grid;
 grid-template-columns: repeat(3,1fr);
 gap:20px;
 }
 
-.grid-4 {
+.grid-4 {       /* Establezco formato para el grid de competencias para poder poner las tarjetas en el lugar que yo quiera */
 display:grid;
 grid-template-columns: 15% 35% 35% 15%;
 gap:20px;
 margin-top: 20px;
 }
 
-.bar {
+.bar {      /* Establezco formato para el tamaño de la barra de progreso */
 background:#ddd;
 height:10px;
 border-radius:5px;
 }
 
-.progress {
+.progress {     /* Establezco formato para el color y tamaño del progreso del interior de la barra de progreso */
 background:#10b981;
 height:10px;
 border-radius:5px;
 }
 
-section {
+section {       /* Establezco formato para todas las secciones de la página */
     display: flexbox;
     flex-direction: column;
 }
 
-footer {
+footer {        /* Añado formato en el footer de todas las páginas */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
@@ -139,7 +139,7 @@ footer {
     margin-top: 5%;
 }
 
-.github {
+.github {       /* Establezco formato para que la imagen del footer esté abajo a la derecha de la página */
     text-align: right;
     align-items: center;
 }
