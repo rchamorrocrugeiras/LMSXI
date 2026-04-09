@@ -1,0 +1,13 @@
+<script>
+    let nome = prompt("Introduce o teu nome: ");
+    let nota = prompt("Introduce a tua nota: ");
+
+    nota = parseFloat(nota)
+
+    if (nome.charAt(0)==="A") {
+        let resultado = nota * 1.1;
+        console.log("Nota final: " + resultado)
+    }   else {
+        console.log("Nota final: " + nota)
+    }
+</script>
