@@ -1,0 +1,17 @@
+<body>
+    <input type="checkbox" id="termos"> Acepto os termos
+    <br><br>
+    <button onclick="comprobar()"> Comprobar </button>
+</body>
+
+<script>
+    function comprobar() {
+        const checkbox = document.getElementById("termos");
+
+        if (checkbox.checked) {
+            console.log("Aceptado");
+        } else {
+            console.log("Rexeitado");
+        }
+    }
+</script>
