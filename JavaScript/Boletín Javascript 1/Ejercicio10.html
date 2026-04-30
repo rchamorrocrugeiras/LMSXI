@@ -1,0 +1,27 @@
+<body>
+    <input id="nome" placeholder="Nome">
+    <br><br>
+    <input id="email" type="email" placeholder="Email">
+    <br><br>
+    <button onclick="enviar()">Enviar</button>
+</body>
+
+<script>
+    function enviar() {
+        let nome = document.getElementById("nome").value;
+        let email = document.getElementById("email").value;
+
+        if (nome === "") {
+            alert("O nome non pode estar baleiro");
+            return;
+        }
+
+        if (!email.includes("@")) {
+            alert("O email debe conter '@'");
+            return;
+        }
+
+        console.log("Nome: " + nome);
+        console.log("Email: " + email);
+    }
+</script>
